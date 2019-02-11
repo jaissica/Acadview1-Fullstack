@@ -1,0 +1,68 @@
+<html>
+<head>
+<title> form </title>
+</head>
+<style type="text/css">
+	body{
+		text-align: center;
+		background-image: url("http://www.webdesigndev.com/wp-content/uploads/2014/09/Seamless-Polygon-Backgrounds-Vol.2.jpg");
+		background-size: cover;
+		font-size: 30px;
+		text-align: left;
+	}
+	
+	h1{
+		color: black;
+	}
+	
+	form{
+		align:center;
+		padding: 10px 100px 10px 475px;
+	}
+</style>
+<body> 
+<form style="width: 500px" align="center">
+	<div>
+<fieldset style="width: 500px" align="center">
+	<legend> <h1> Personal Info </h1> </legend>
+First Name: 
+<input type="text" name="first_name" value="enter first name" > <br>
+Second Name:
+<input type="text" name="last_name" value="enter last name"> <br>
+Gender: <br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female" > Female<br>
+Date Of Birth:
+<input type="text" name="dob"> <br>
+Sun Sign: 
+<select name="zodiac">
+  <option value="capricon">capricon</option>
+  <option value="aquaries">aquaries</option>
+  <option value="pisces">pisces</option>
+  <option value="aries">Aries</option>
+  <option value="taurus">taurus</option>
+  <option value="gemini">gemini</option>
+  <option value="cancer">cancer</option>
+  <option value="leo">leo</option>
+  <option value="virgo">virgo</option>
+  <option value="libra">libra</option>
+  <option value="scorpio">scorpio</option>
+  <option value="sagitarius">sagitarius</option>
+</select>
+<br>
+Tell us about yourself: <br>
+<textarea name="hobbies" rows="10" cols="30">
+Tell us about your hobbies: 
+</textarea>
+<br>
+Email id: 
+<input type="email" name="email" value="enter your email id"> 
+<br>
+Psassword: 
+<input type="password" name="pass" value="enter password"> <br> <br>
+<input type="submit" value="submit" >
+</fieldset>
+</div>
+</form>
+</body>
+</html>
